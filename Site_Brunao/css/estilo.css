@@ -1,0 +1,40 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: scroll ;
+    background-size: cover ;
+    background-attachment: fixed;
+
+}
+
+header{
+    padding: 3%;
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    padding: 3%;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.5em;
+    color: white;
+}
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+}
+h2{
+    font-size: 1.5em;
+    color: white;
+}
