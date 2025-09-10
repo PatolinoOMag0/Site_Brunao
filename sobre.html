@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Pizzaria Forno a Lenha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            min-height: 100vh;
+        }
+        .btn {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="text-gray-100 font-sans">
+    <div class="overlay flex flex-col min-h-screen">
+        <!-- Header -->
+        <header class="bg-amber-900 bg-opacity-95 p-6 shadow-xl">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-4xl font-bold text-orange-300 tracking-tight">Pizzaria Forno a Lenha</h1>
+                <nav>
+                    <ul class="flex space-x-8">
+                        <li><a href="index.html" class="text-orange-200 hover:text-orange-400 btn">Home</a></li>
+                        <li><a href="cadastro.html" class="text-orange-200 hover:text-orange-400 btn">Cadastro</a></li>
+                        <li><a href="login.html" class="text-orange-200 hover:text-orange-400 btn">Login</a></li>
+                        <li><a href="sobre.html" class="text-orange-200 hover:text-orange-400 btn">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container mx-auto flex-grow p-10">
+            <section class="bg-gray-800 bg-opacity-80 rounded-xl p-12 shadow-2xl max-w-4xl mx-auto">
+                <h2 class="text-3xl font-semibold text-orange-300 mb-6 text-center">Sobre Nós</h2>
+                <p class="text-lg text-gray-200 mb-8">
+                    O site da Pizzaria Forno a Lenha foi criado por três jovens desenvolvedores apaixonados por tecnologia e pizza! Com o objetivo de trazer uma experiência digital tão saborosa quanto nossas pizzas, eles desenvolveram este site com dedicação, unindo design moderno e funcionalidades práticas para conectar clientes à nossa paixão pela culinária artesanal.
+                </p>
+                <h3 class="text-2xl font-semibold text-orange-300 mb-6 text-center">Nossa Equipe</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <h4 class="text-xl font-bold text-gray-100">Matheus Lima</h4>
+                        <p class="text-orange-200">login</p>
+                        <p class="text-gray-300">fez o login e cuidou de observar o desevolvimento do site, cada Com 2 anos de experiência em html e css</p>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-xl font-bold text-gray-100">Marcos Gabriel</h4>
+                        <p class="text-orange-200">index e cadastro</p>
+                        <p class="text-gray-300">desevolveu o index e o cadastro para nosso site e organizou tudo e fez o figma, com 2 anos de experiência em html e css e lider do grupo</p>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-xl font-bold text-gray-100">Ramon Alves</h4>
+                        <p class="text-orange-200">sobre e index</p>
+                        <p class="text-gray-300">desevolveu o index e o sobre para nosso site, com 2 anos de experiência de html e css</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-amber-900 bg-opacity-95 p-4 text-center">
+            <p class="text-orange-200 text-sm">&copy; 2025 MRM produções</p>
+        </footer>
+    </div>
+</body>
+</html>
